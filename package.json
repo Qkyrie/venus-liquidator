@@ -1,0 +1,21 @@
+{
+  "name": "cream-liquidator-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test --network hardhat",
+    "deploy": "npx hardhat run script/deploy.js --network main"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "chai": "4.3.4",
+    "hardhat": "2.1.2"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
+}
